@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ClipsHub · Ready-to-post streamer clips</title>
-<meta name="description" content="Vertical, captioned streamer clips, ready for TikTok, YouTube Shorts and Reels. GTA 6 launch clips from Nov 19. $4.99 a week or $14.99 a month.">
+<meta name="description" content="Stop hunting for clips and overpaying for AI tools. Streamer clips already cut, captioned and ready to post, all in one place. From $4.99 a week.">
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ClipsHub">
 <meta property="og:title" content="ClipsHub · Ready-to-post streamer clips">
-<meta property="og:description" content="Vertical, captioned streamer clips, ready for TikTok, Shorts and Reels. GTA 6 launch clips from Nov 19.">
+<meta property="og:description" content="Stop hunting for clips and overpaying for AI tools. Streamer clips already cut and ready to post, all in one place.">
 <meta property="og:image" content="https://clipshub.cc/og.png">
 <meta property="og:url" content="https://clipshub.cc/">
 <meta name="twitter:card" content="summary_large_image">
@@ -45,6 +45,8 @@ section{padding:52px 0}
 h2{font-family:"Archivo Black",sans-serif;font-size:clamp(26px,4vw,36px);text-align:center;margin-bottom:28px}
 .grid{display:grid;gap:16px}
 .steps{grid-template-columns:repeat(3,1fr)}
+.why{grid-template-columns:repeat(4,1fr)}
+.ico{width:48px;height:48px;border-radius:12px;background:rgba(255,46,126,.12);border:1px solid rgba(255,46,126,.25);display:grid;place-items:center;font-size:24px;margin-bottom:14px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}
 .num{width:36px;height:36px;border-radius:10px;background:var(--grad);display:grid;place-items:center;font-weight:800;margin-bottom:14px}
 .card h3{font-size:19px;margin-bottom:6px}
@@ -71,7 +73,8 @@ details p{color:var(--muted);margin-top:10px}
 footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:14px;margin-top:20px}
 footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 footer a:hover{color:var(--text)}
-@media (max-width:760px){.steps,.plans{grid-template-columns:1fr}.plans{gap:28px}.free{flex-direction:column;text-align:center}.hero{padding:44px 0 36px}section{padding:40px 0}}
+@media (max-width:960px){.why{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:760px){.steps,.plans,.why{grid-template-columns:1fr}.plans{gap:28px}.free{flex-direction:column;text-align:center}.hero{padding:44px 0 36px}section{padding:40px 0}}
 </style>
 </head>
 <body>
@@ -84,12 +87,22 @@ footer a:hover{color:var(--text)}
   <header class="hero">
     <div class="pill">GTA 6 launch clips start <b>Nov 19</b></div>
     <h1>Ready-to-post<br><span class="grad-text">streamer clips.</span></h1>
-    <p class="lead">The biggest streamer moments, cut vertical and captioned, ready for TikTok, YouTube Shorts and Reels as they happen.</p>
+    <p class="lead">Stop hunting for clips and overpaying for AI tools. Get the biggest streamer moments already cut, captioned and ready to post, all in one place.</p>
     <div class="cta">
       <a class="btn btn-main" href="https://discord.gg/j7bRzNpGnv">Join the Discord</a>
       <a class="btn btn-ghost" href="#plans">See plans</a>
     </div>
   </header>
+
+  <section id="why">
+    <h2>Why ClipsHub</h2>
+    <div class="grid why">
+      <div class="card"><div class="ico">💸</div><h3>No overpriced AI</h3><p>Skip the pricey AI clipping tools. Every clip is picked and cut for you, from $4.99 a week.</p></div>
+      <div class="card"><div class="ico">⏱️</div><h3>No more hunting</h3><p>Stop scrolling through hours of streams. We watch them, so you don't have to.</p></div>
+      <div class="card"><div class="ico">📦</div><h3>All in one place</h3><p>Every clip lands in one channel. No juggling sites or folders.</p></div>
+      <div class="card"><div class="ico">✂️</div><h3>Ready to post</h3><p>Already cut, vertical and captioned for TikTok, YouTube Shorts and Reels.</p></div>
+    </div>
+  </section>
 
   <section id="how">
     <h2>How it works</h2>
